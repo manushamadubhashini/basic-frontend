@@ -6,9 +6,11 @@
  - work with others, keep track of changes, and undo mistakes.
 
  ## Where to use Git?
+
  Git works on your computer, but you also use it with online services like GitHub, GitLab, or Bitbucket to share your work with others. These are called remote repositories.
 
  ## Key Git Concepts
+ 
  - Repository: A folder where Git tracks your project     and  its history.
 
  - Clone: Make a copy of a remote repository on your  computer.
