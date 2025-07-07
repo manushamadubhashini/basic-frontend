@@ -1,5 +1,9 @@
 // javaScript Scope
 
+var isConditional = true
+// let message1 = "i'm message1"
+var message2 = "i'm message2";
+
 // Global Scope
 
 { 
@@ -21,3 +25,15 @@ function myFunction() {
 
 }
 console.log("2::",myFunction())
+
+
+// console.log("1:",message1,message2) //message1 is not defined
+console.log("1:",message2)
+// conditional block scope
+if(isConditional === true){
+    let message1 = "i'm blocked scope message"
+    var message2 = "i'm redeclared var variable"
+    console.log("2:",message1,message2)
+}
+// console.log("3:",message1,message2)
+console.log("3:",message2)
